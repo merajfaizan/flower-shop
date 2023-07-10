@@ -17,6 +17,24 @@ body {
   margin-top: 16px;
 }
 
+.section-title  {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.section-description {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
 /* header section css */
 .hero-section {
   background: rgba(229, 84, 115, 0.10);
@@ -56,24 +74,6 @@ body {
 
 .featured-flower {
   padding: 100px 120px;
-}
-
-.featured-flower-title  {
-  color: #272727;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 900;
-}
-
-.featured-flower-description {
-  width: 400px;
-  margin: auto;
-  margin-bottom: 40px;
-  color: rgba(39, 39, 39, 0.60);
-  text-align: center;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 15px;
 }
 
 .flower-card-holder {
@@ -144,3 +144,68 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* deals section */
+
+.deal-section {
+  margin: 100px 0px;
+  padding: 50px 120px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal-section div {
+  width: 50%;
+}
+
+.deal-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal-title {
+  color: #272727;
+  font-size:25px;
+  font-weight: 900;
+}
+
+.deal-description {
+  color: #272727;
+  font-size:12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.deal-title span {
+  color: #E55473;
+}
+
+.deal-image-div {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* instagram section */
+
+.instagram-section {
+  margin: 0px 120px;
+  margin-bottom: 100px;
+}
+
+.insta-images-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.insta-image {
+  width: 240px;
+}
+
