@@ -123,3 +123,24 @@ body {
   line-height: 20px;
   text-decoration-line: underline;
 }
+
+/* delivery info section */
+
+.delivery-info {
+  width: auto;
+  height: 300px;
+  margin: 20px 120px;
+  padding: 0px 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.delivery-info > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
