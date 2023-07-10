@@ -32,17 +32,16 @@ body {
   width: 50%;
 }
 
-.hero-section div h1 {
+.hero-section-title {
   color: #272727;
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
 }
 
-.hero-section div p {
+.hero-section-description {
   color: rgba(39, 39, 39, 0.60);
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 15px;
   width: 300px;
@@ -54,3 +53,73 @@ body {
 }
 
 /* featured flower section */
+
+.featured-flower {
+  padding: 100px 120px;
+}
+
+.featured-flower-title  {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.featured-flower-description {
+  width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.flower-card-holder {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flower-card-1 {
+  width: auto;
+  height: 300px;
+  padding: 50px 30px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 150px 150px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.flower-card-2 {
+  width: auto;
+  height: 300px;
+  padding: 50px 30px 0px 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 150px 150px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.flower-card-3 {
+  width: auto;
+  height: 300px;
+  padding: 50px 30px 0px 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 150px 150px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.card-image {
+  width: 250px;
+}
+
+.card-title {
+  color: #272727;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
