@@ -6,6 +6,7 @@ body {
 
 /* reusable classes */
 .primary-button {
+  height: 40px;
   border-radius: 4px;
   background: #E55473;
   border: none;
@@ -209,3 +210,29 @@ justify-content: center;
   width: 240px;
 }
 
+/* email subscribe section */
+
+.subscribe-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 120px;
+  padding-top: 50px;
+  padding-bottom: 50px ;
+  background-image: url(../background/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.subscribe-form {
+  margin-bottom: 100px;
+}
+
+.email-input {
+  width: 500px;
+  height: 25px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
