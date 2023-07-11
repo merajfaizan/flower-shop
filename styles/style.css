@@ -237,6 +237,21 @@ justify-content: center;
   border-radius: 5px;
   border: none;
 }
+/* contact Us section */
+
+.contact-us {
+  margin: 0px 120px;
+  margin-bottom: 50px;
+}
+
+.contact-us-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-list {
+  font-size: 20px;
+}
 
 /* footer */
 footer {
